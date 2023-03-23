@@ -1,0 +1,87 @@
+.footer-section{
+  background-color:#1E2147;
+  height: 500px;
+}
+
+#myInput {
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+
+ .hero{
+    background-image: url("./images/pexels-kampus-production-5940845.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+ }
+
+ .bg-img{
+  background-image: url("./images/krakenimages-Y5bvRlcCx8k-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+ }
+
+ .courses-bg-img{
+  background-image: url("./images/scott-graham-5fNmWej4tAA-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+ }
+
+ input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #eee;
+  
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+/* The navigation bar */
+.contactNavbar {
+  background-color: #f2f2f2; 
+}
+
+.contactNavbar{
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  max-width: 100%;
+}
+
+.cart{
+  overflow: hidden;
+  position: fixed;
+  top: 150px; 
+}
+
+
+/* Links inside the navbar */
+.contactNavbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+/* .contactNavbar a:hover {
+  background: #ddd;
+  color: black;
+} */
