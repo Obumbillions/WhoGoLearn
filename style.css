@@ -72,6 +72,29 @@
 }
 
 
+.cart-color{
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 192, 203, 0.5), 0 0 20px rgba(255, 192, 203, 0.5), 0 0 30px rgba(255, 192, 203, 0.5), 0 0 40px rgba(255, 192, 203, 0.5), 0 0 70px rgba(255, 192, 203, 0.5), 0 0 80px rgba(255, 192, 203, 0.5), 0 0 100px rgba(255, 192, 203, 0.5);
+  animation: glow-effect 2s ease-in-out infinite;
+}
+
+@keyframes cart-color {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 192, 203, 0.5), 0 0 20px rgba(255, 192, 203, 0.5), 0 0 30px rgba(255, 192, 203, 0.5), 0 0 40px rgba(255, 192, 203, 0.5), 0 0 70px rgba(255, 192, 203, 0.5), 0 0 80px rgba(255, 192, 203, 0.5), 0 0 100px rgba(255, 192, 203, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 192, 203, 0.8), 0 0 30px rgba(255, 192, 203, 0.8), 0 0 40px rgba(255, 192, 203, 0.8), 0 0 50px rgba(255, 192, 203, 0.8), 0 0 80px rgba(255, 192, 203, 0.8), 0 0 90px rgba(255, 192, 203, 0.8), 0 0 110px rgba(255, 192, 203, 0.8);
+  }
+}
+
+
+
+
+
 /* Links inside the navbar */
 .contactNavbar a {
   display: block;
