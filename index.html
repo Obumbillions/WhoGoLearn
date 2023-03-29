@@ -13,10 +13,28 @@
                 <header class="container ">
                     <section class="d-flex justify-content-between mt-5 py-4">
                         <section class="d-flex justify-content-between">
-                             <a href="home.html">
+                             <a href="home.html" class="mt-3">
                                 <img src="images/logo.png" width="130px" height="50px" alt="WhoGoLearn Logo"> 
-                            </a>         
-                            <section class="ms-5 d-flex justify-center align-center">
+                            </a>  
+                            <!--testing category -->
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="d-flex align-self-center ps-4 ms-4">
+                                        <img src="images/3603178.png" class="mt-4" width="20px" height="20px" alt="Dotted Box">
+                                        <p class="ps-3 mt-4">Category</p>
+                                    </span>
+                                </a>
+                              
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="dropdown-item" href="sign.php">free Courses</a></li>
+                                  <li><a class="dropdown-item" href="sign.php">Featured courses</a></li>
+                                
+                                </ul>
+                              </div>
+                            <!--testing ends here-->
+                            
+
+                            <!-- <section class="ms-5 d-flex justify-center align-center">
                                 <span class="d-flex align-self-center">
                                     <img src="images/3603178.png" class="mt-4" width="20px" height="20px" alt="Dotted Box">
                                     <p class="ps-2 mt-3 pt-2">Category</p>
@@ -24,13 +42,13 @@
                                 <form class="d-flex ps-5">
                                     <input class="form-control me-2" type="search" id="myInput" placeholder="Search for course, skills and videos " aria-label="Search">
                                   </form>
-                            </section> 
+                            </section>  -->
                         </section> 
                             <section class="d-flex justify-content-between align-center">
                                 <a href="home.html" class="align-self-center text-decoration-none text-dark">Home</a>
-                                <a href="" class="align-self-center px-2 text-decoration-none text-dark ">Courses</a>
-                                <a href="contactus.html" class="align-self-center pe-2 text-decoration-none text-dark ">Contact us</a>
-                                <a href="sign.html" class="align-self-center btn-danger rounded px-3 py-2 text-white text-decoration-none"> Sign In</a>
+                                <!-- <a href="" class="align-self-center px-2 text-decoration-none text-dark ">Courses</a> -->
+                                <a href="contactus.html" class="align-self-center ps-2 pe-2 text-decoration-none text-dark ">Contact us</a>
+                                <a href="sign.php" class="align-self-center btn-danger rounded px-3 py-2 text-white text-decoration-none"> Sign Up</a>
                             </section>
                     </section>
                 </header>
@@ -81,14 +99,14 @@
                         <section>
                             <h5 class="text-white">Support Zone</h5>
                             <div class="d-flex flex-column">
-                                <a href="#" class="text-decoration-none pt-2"> Featured courses</a>
-                                <a href="#" class="text-decoration-none pt-2"> Join us</a>
+                                <a href="login.php" class="text-decoration-none pt-2"> Featured courses</a>
+                                <a href="sign.php" class="text-decoration-none pt-2"> Join us</a>
                             </div>
                         </section>
                         <section>
                             <h5 class="text-white">Explore Services</h5>
                             <div class="d-flex flex-column pt-2">
-                                <a href="#" class="text-decoration-none"> Free courses</a>  
+                                <a href="login.php" class="text-decoration-none"> Free courses</a>  
                             </div>
                         </section>
                  </section>

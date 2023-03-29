@@ -68,7 +68,8 @@
 .cart{
   overflow: hidden;
   position: fixed;
-  top: 150px; 
+  top: 700px required;
+  
 }
 
 
